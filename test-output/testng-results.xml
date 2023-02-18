@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30939" started-at="2023-02-18T03:39:11Z" finished-at="2023-02-18T03:39:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30939" started-at="2023-02-18T03:39:11Z" finished-at="2023-02-18T03:39:42Z">
+      <class name="testscripts.ThirdTest">
+        <test-method status="PASS" signature="classConfigaration()[pri:0, instance:testscripts.ThirdTest@79b4d0f]" name="classConfigaration" is-config="true" duration-ms="1048" started-at="2023-02-18T09:09:11Z" finished-at="2023-02-18T09:09:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classConfigaration -->
+        <test-method status="PASS" signature="methodConfiguration()[pri:0, instance:testscripts.ThirdTest@79b4d0f]" name="methodConfiguration" is-config="true" duration-ms="7505" started-at="2023-02-18T09:09:12Z" finished-at="2023-02-18T09:09:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodConfiguration -->
+        <test-method status="PASS" signature="thirdTest()[pri:0, instance:testscripts.ThirdTest@79b4d0f]" name="thirdTest" duration-ms="20137" started-at="2023-02-18T09:09:19Z" finished-at="2023-02-18T09:09:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTest -->
+        <test-method status="PASS" signature="methodTearDown()[pri:0, instance:testscripts.ThirdTest@79b4d0f]" name="methodTearDown" is-config="true" duration-ms="2240" started-at="2023-02-18T09:09:39Z" finished-at="2023-02-18T09:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method status="PASS" signature="classTearDown()[pri:0, instance:testscripts.ThirdTest@79b4d0f]" name="classTearDown" is-config="true" duration-ms="0" started-at="2023-02-18T09:09:42Z" finished-at="2023-02-18T09:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+      </class> <!-- testscripts.ThirdTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
