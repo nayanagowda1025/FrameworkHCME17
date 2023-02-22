@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="Test(failed)">
     <classes>
+      <class name="testscripts.FourthTest">
+        <methods>
+          <include name="fourthTest"/>
+        </methods>
+      </class> <!-- testscripts.FourthTest -->
       <class name="testscripts.SecondTest">
         <methods>
-          <include name="methodTearDown"/>
-          <include name="methodConfiguration"/>
-          <include name="classConfigaration"/>
           <include name="secondTest"/>
         </methods>
       </class> <!-- testscripts.SecondTest -->
+      <class name="testscripts.ThirdTest">
+        <methods>
+          <include name="thirdTest"/>
+          <include name="methodConfiguration"/>
+          <include name="classConfigaration"/>
+        </methods>
+      </class> <!-- testscripts.ThirdTest -->
+      <class name="testscripts.FirstTest">
+        <methods>
+          <include name="firstTest"/>
+        </methods>
+      </class> <!-- testscripts.FirstTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
